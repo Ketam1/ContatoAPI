@@ -24,4 +24,4 @@ São possíveis para mandar as API's os seguintes pedidos
 - Editar contato - Edita um contato de um usuário e retorna o contato editado.
 - Visualizar Contato - Retorna uma visualização de um contato de um usuário .
 
-![Imgur](https://i.imgur.com/VUkSyF9.png)
+![Imgur](https://i.imgur.com/h7NCblN.png)
