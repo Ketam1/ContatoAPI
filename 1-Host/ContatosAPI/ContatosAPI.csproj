@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-Application\ContatosAPI.AppService.Interface\ContatosAPI.AppService.Interface.csproj" />
+    <ProjectReference Include="..\..\3-Domain\ContatoAPI.Domain.Interface\ContatosAPI.Domain.Interface.csproj" />
+    <ProjectReference Include="..\..\3-Domain\ContatosAPI.Modelos\ContatosAPI.Domain.Modelos.csproj" />
+    <ProjectReference Include="..\..\4-Infra\ContatosAPI.Infra.IoC\ContatosAPI.Infra.IoC.csproj" />
+    <ProjectReference Include="..\..\ContatosAPI.Infra.IoC\ContatosAPI.Infra.IoC.csproj" />
+    <ProjectReference Include="..\..\Shared\ContatosAPI.Shared.Util\ContatosAPI.Shared.Util.csproj" />
+  </ItemGroup>
+
+
+</Project>

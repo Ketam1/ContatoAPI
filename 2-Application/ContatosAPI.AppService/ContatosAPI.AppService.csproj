@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3-Domain\ContatoAPI.Domain.Interface\ContatosAPI.Domain.Interface.csproj" />
+    <ProjectReference Include="..\ContatosAPI.AppService.Interface\ContatosAPI.AppService.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

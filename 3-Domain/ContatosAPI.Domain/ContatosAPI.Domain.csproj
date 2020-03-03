@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\4-Infra\ContatosAPI.Infra.Repository\ContatosAPI.Infra.Repository.csproj" />
+    <ProjectReference Include="..\ContatoAPI.Domain.Interface\ContatosAPI.Domain.Interface.csproj" />
+    <ProjectReference Include="..\ContatosAPI.Modelos\ContatosAPI.Domain.Modelos.csproj" />
+  </ItemGroup>
+
+</Project>
